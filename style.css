@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1651B8;  
+
+}
+
+.navbar{
+    width: 80%;
+    height: 80px;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 15px;
+}
+
+.navbar-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.navbar-liks_list{
+    display: flex;
+}
+
+.navbar-links_items{
+    margin-right: 15px;
+
+    list-style: none;
+}
+
+.navbar-links_items a{
+    color: white;
+    text-decoration: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    transition: .15s;
+}
+
+.navbar-links_items a:hover{
+    color:rgb(197, 182, 182);
+}
+
+.container{
+    height: fit-content;
+    width: 900px;
+
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 15px;
+
+    margin: 15px auto;   
+}
+
+.container-text{
+    padding: 15px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #FFE11F;
+    margin-bottom: 15px;
+
+    border-radius: 5px;
+
+    font-family: 'Roboto', sans-serif;
+
+    color: #079c2c;
+}
+
+.contaier-title{
+    margin-bottom: 5px;
+}
+
+.container-description{
+    color: #079c2c;
+    font-size: 18px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-cups{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+}
+
+.container-cups_img {
+    width: 400px;
+    height: 300px;
+
+    border-radius: 5px;
+
+    margin-right: 15px;
+}
+
+.container-cups_description{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+    color: #079c2c;
+
+    padding: 10px;
+
+    border-right: 1px solid #1651B8;
+}
+
+.container-cups_description-title{
+    color: black;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #1651B8;
+
+    font-family: 'Roboto', sans-serif;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-cup{
+    width: 95%;
+    background-color: #1651B8;
+
+    display: flex;
+
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+
+    border-radius: 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: white;
+}
